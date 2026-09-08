@@ -1,0 +1,19 @@
+# 环境与依赖
+.env
+venv/
+__pycache__/
+*.pyc
+
+# 临时运行产物
+outputs/traces/*
+outputs/reports/*
+!outputs/scripts/*.py
+
+# IDE 配置
+.idea/
+.vscode/
+*.log
+
+# 临时调试脚本
+.tmpcodes/
+
